@@ -1,0 +1,11 @@
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* purgecss end ignore */
+@import 'tailwindcss/utilities';
+
+@layer utilities {
+  .fill-img {
+    @apply w-full h-full absolute top-0 left-0 object-cover object-center;
+  }
+}

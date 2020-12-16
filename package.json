@@ -1,0 +1,36 @@
+{
+  "name": "emil-sayur",
+  "version": "1.0.0",
+  "description": "My splendid Nuxt.js project",
+  "author": "sevta",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "node-sass": "^5.0.0",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^10.1.0",
+    "smooth-scrollbar": "^8.5.3",
+    "vue-awesome-swiper": "^4.1.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/device": "^1.2.7",
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "autoprefixer": "^9.8.6",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^1.18.9",
+    "postcss": "^7.0.35",
+    "prettier": "^1.19.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+  }
+}
